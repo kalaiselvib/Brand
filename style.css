@@ -1,0 +1,421 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    overflow-x: hidden;
+}
+.container-fluid{
+    height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+nav{
+    height: 100px;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.navbar{
+    height: 100px;
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive !important;
+    color:black;
+    font-weight: bolder;
+
+}
+.navbar-nav{
+    margin:0 !important;
+    padding: 0 !important;
+    list-style-type: none;
+    width: 100%;
+}
+.navbar-nav .nav-item{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.navbar-nav .nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 30px !important;
+}
+#schd{
+    color: orangered !important;
+}
+.sidebar{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+   
+}
+.sidebar .nav-item{
+    margin:10px 10px !important;
+}
+.sidebar button{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    outline: none;
+}
+.well{
+    text-align: center;
+    word-spacing: 3px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 5%;
+    box-shadow: 4px 4px 4px gray;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.well:hover{
+    box-shadow: 8px 8px 8px 8px gray;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.well span{
+    color:blue;
+}
+.container-fluid .row{
+    margin: 10px;
+    margin-top: 10%
+}
+ #side1{
+    height: 350px;
+}
+#side1 h4{
+    margin-left: 5%;
+}
+#side1 h1{
+    font-weight: bolder;
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 5%;
+} 
+#side1 p{
+    font-size: 20px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+#free{
+background-color: black !important;
+padding: 15px;
+color: white;
+text-decoration: none;
+margin-right: 10px;
+margin-left: 6%;
+
+}
+ #demo{
+    color:black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px;
+}
+#side2 img{
+border-top:1px solid black;
+height:350px;
+width: 100%;
+}
+#myCarousel{
+    height: 10vh;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10% !important;
+}
+.carousel-inner{
+    
+    height: 100px;
+}
+.carousel-inner .nav-item{
+   background-color: palevioletred;
+}
+.carousel-inner li{
+    list-style-type:none;
+    display: inline;
+    margin: 20px;
+    font-size: 30px;
+}
+.item .fa{
+    font-size: 30px;
+    margin-right: 10px;
+}
+P{
+    text-align: center;
+    font-size: 20px;
+}
+.hero{
+    height: 200px;
+    text-align: center;
+    margin-top: 10% !important;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.hero h1{
+    font-weight: bolder;
+    font-family: 'Oxygen', sans-serif;
+}
+.hero p{
+    font-size: 16px;
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.hero .grid-container{
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 30px 30px;
+    height: 400px;
+    
+    
+}
+.hero .fa{
+    font-size:20px;
+}
+.hero .grid-item{
+height: 140px;
+width: 300px;
+box-shadow: 5px 5px 8px gray;  
+cursor: pointer;
+}
+.hero .grid-item:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+.hero .grid-item h4{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight:bolder;
+}
+.hero .grid-container p{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20px;
+   
+}
+.well2{
+    margin-top:30%;
+    text-align: center;
+    width: 50%;
+}
+.well2 h5{
+    font-size:15px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.well2 .fa{
+    font-size: 20px;
+}
+.scale{
+    height: 60vh;
+    margin-top: 10%;
+}
+.scale h1, p{
+    text-align: center;
+}
+.scale .row{
+    
+    margin-top: 10%;
+    margin: 5px;
+}
+.scale .row img{
+    height: 300px;
+    width: 100%;
+    margin-top: 10%;
+}
+#side4{
+    margin-top: 5%;
+}
+#side4 .nav-pills{
+    background-color: #91c7d9;
+    width: 400px;
+    display: flex;
+    color: white;
+    font-size: 18px;
+    margin-left: 5%;
+}
+#firstone{
+    background-color: white !important;
+    border: 2px solid black;
+    color:black !important;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-bottom: 3px solid black;
+}
+#side4 p{
+    font-size: 20px;
+    margin-top: 5%;
+    text-align: left;
+}
+#pay { 
+   list-style-type: none;
+}
+#pay li{
+    margin: 10px;
+    margin-top: 2%;
+    font-size: 15px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+} 
+.well3{
+    margin-top: 10%;
+}
+.well3 h5{
+    font-size:15px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.oppurtunities{
+    
+    height: 400px;
+    margin-top:10%;
+} 
+#side5{
+    text-align: left;
+    margin-left: 15px !important;
+    width: 30%;
+    margin-right: 40px;
+}
+#side5 h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#side5 p{
+    font-size: 16px;
+    text-align: left !important ;
+}
+.oppurtunities h4{
+    font-size: 18px;
+    font-weight: bolder;
+}
+#side6, #side7{
+    margin-left: 40px;
+}
+.oppurtunities li{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.subscription{
+    height: 500px;
+    margin-top:10%;
+}
+.subscription h1{
+    text-align:center;
+    font-size: 30px;
+}
+.subscription p{
+    text-align:center;
+    font-size: 18px;
+    margin-top:5%;
+}
+.subscription .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10% ;
+    
+}
+.subscription .grid-item{
+    width: 450px;
+    height: 150px;
+    box-shadow: 5px 5px 8px gray;
+    margin: 0 auto;
+}
+.subscription .grid-item h4{
+    text-align: center;
+    font-weight: bolder;
+}
+.subscription .grid-item p{
+font-size: 17px;
+}
+footer{
+    height: 170vh;
+  background-color: gainsboro;
+    margin-top:20%;
+}
+footer .center-box{
+    width: 50%;
+    box-shadow: 8px 8px 8px 8px gray;
+    background-color: white;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+.center-box .fa{
+    font-size:40px;
+    border-radius: 50%;
+    background-color: lightblue;
+    padding: 20px;
+    position: relative;
+    top:-100px;
+    left:230px
+}
+ .center-box p{
+    text-align: justify;
+    font-size:16px;
+}
+.center-box ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.center-box ul li {
+    margin-left: 5px;
+}
+.center-box a{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding:5px;
+    font-size:12px;
+}
+footer h1{
+    padding-top: 5%;
+    text-align: left;
+    width: 50%;
+    font-size: 40px;
+    margin-left: 5%;
+    font-weight: bolder;
+}
+footer p{
+    text-align: left;
+    margin-left: 5%;
+}
+footer .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    margin-top: 3%;
+}
+#intro{
+    margin-top: 5%;
+    font-size:15px;
+}
+footer a{
+    margin-top: 2%;
+    color: black;
+    margin-left: 5%;
+    text-decoration: black;
+}
+
+
+
+
+
+
+    

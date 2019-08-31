@@ -1,0 +1,793 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden !important;
+}
+@media only screen and (max-width: 600px){
+.container-fluid{
+    height: 150vh;
+    margin: 0 !important;
+    padding: 0 !important;
+  
+}
+nav{
+    height: 400px;
+    font-family: 'Red Hat Text', sans-serif;
+    border-bottom: 0.5px solid black;
+}
+.navbar{
+    height: 80px;
+    border-bottom: 1px solid gainsboro;
+}
+.navbar .navbar-toggler{
+    float: left;
+    background-color: white;
+    font-size:30px;
+    outline:  none;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-family: 'Alex Brush', cursive !important;
+    color:black;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+.navbar-nav{
+    margin:0 !important;
+    padding: 0 !important;
+    list-style-type: none;
+    width: 100%;
+}
+.navbar-nav .nav-item{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.navbar-nav .nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 30px !important;
+}
+#schd{
+    color: orangered !important;
+}
+.sidebar{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+   
+}
+.sidebar .nav-item{
+    margin:10px 10px !important;
+}
+.sidebar button{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    outline: none;
+}
+.well{
+    text-align: center;
+    word-spacing: 3px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 5%;
+    box-shadow: 2px 2px 2px gray;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.well:hover{
+    box-shadow: 8px 8px 8px 8px gray;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.well span{
+    color:blue;
+}
+.container-fluid .row{
+    margin: 10px;
+    margin-top: 10%
+}
+ #side1{
+    height: 350px;
+}
+#side1 h4{
+    margin-left: 5%;
+    font-size:14px;
+    word-spacing: 3px;
+}
+#side1 h1{
+    font-weight: bolder;
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 5%;
+    font-size:25px;
+} 
+#side2 p{
+    font-size: 17px;
+    margin-top: 45%;
+    margin-bottom:20%;
+}
+#free{
+background-color: black !important;
+padding: 15px;
+color: white;
+text-decoration: none;
+margin-right: 20px;
+margin-left: 25%;
+display: block;
+width: 150px !important;
+
+}
+ #demo{
+    color:black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px;
+    display: block;
+    width: 150px;
+    margin-top: 5%;
+    margin-left:25%;
+}
+#side1 img{
+border-top:1px solid black;
+height:350px;
+width: 100%;
+margin-top:5%;
+}
+#myCarousel{
+    height: 15vh;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top:15%;
+}
+.carousel-inner{
+    height: 100px;
+}
+.carousel-inner .nav-item{
+   background-color: palevioletred;
+}
+.carousel-inner li{
+    list-style-type:none;
+    display: inline;
+    margin: 15px;
+    font-size: 16px;
+}
+.item .fa{
+    font-size: 23px;
+    margin-right: 5px;
+}
+P{
+    text-align: center;
+    font-size: 16px;
+}
+.hero{
+    height: 400px;
+    text-align: center;
+    margin-top: 20% !important;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.hero h2{
+    font-weight: bolder;
+    font-family: 'Oxygen', sans-serif;
+    font-size:20px;
+    width:70%;
+    margin: 0 auto;
+    word-spacing: 2px;
+}
+.hero p{
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 10%;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.hero .grid-container{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto; 
+    height: 30vh;
+    margin-top: 15%;
+    overflow-x: scroll !important;
+    grid-gap: 2px;
+}
+.hero .fa{
+    font-size:20px;
+}
+.hero .grid-item{
+height: 140px;
+width: 340px;
+box-shadow: 5px 5px 8px gray;  
+cursor: pointer;
+margin-left: 5px;
+}
+.hero .grid-item:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+.hero .grid-item h4{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight:bolder;
+
+}
+.hero .grid-container p{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 20px;
+   
+}
+.well2{
+    text-align: center;
+    height: 80px;
+    margin-top: 20%;
+    padding: 5px !important;
+    box-shadow: 2px 2px 2px gray !important; 
+   
+}
+.well2 h5{
+    font-size:15px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.well2 .fa{
+    font-size: 20px;
+}
+.scale{
+    height: 120vh;
+    margin-top: 30%;
+}
+.scale h1{
+    font-size: 23px;
+}
+
+.scale h1, p{
+    text-align: center;
+}
+.scale .row{
+    
+    margin-top: 10%;
+    margin: 5px;
+}
+.scale .row img{
+    height: 200px;
+    width: 100%;
+    margin-top: 10%;
+}
+#side4{
+    margin-top: 15%;
+}
+#side4 .nav-pills{
+    background-color: #91c7d9;
+    width: 350px;
+    display: flex;
+    color: white;
+    font-size: 14px;
+    
+}
+#side4 .nav-pills li{
+    border: 1px solid gainsboro;
+
+}
+#firstone{
+    background-color: white !important;
+    border: 2px solid black !important;
+    color:black !important;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-bottom: 3px solid black;
+}
+#side4 p{
+    font-size: 20px;
+    margin-top: 15%;
+    text-align: left;
+}
+#pay { 
+   list-style-type: none;
+
+}
+#pay li{
+    margin: 10px;
+    margin-top: 2%;
+    font-size: 17px;
+    font-weight: bold;
+   color: blue;
+} 
+.well3{
+    margin-top: 10%;
+}
+.well3 h5{
+    font-size:15px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.oppurtunities{
+ 
+    height:180vh;
+    margin-top:30%;
+} 
+#side5{
+    margin-right: 40px;
+}
+#side5 h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#side5 p{
+    font-size: 16px;
+    text-align: left !important ;
+    margin-top: 10%;
+}
+#side6, #side7{
+    margin-left: 20px;
+    margin-top: 10%;
+}
+#side6 h4 , #side7 h4{
+    font-weight: bold;
+}
+.oppurtunities li{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.subscription{
+    height: 80vh;
+    margin-top:10%;
+
+}
+.subscription h1{
+    text-align:center;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.subscription p{
+    text-align:center;
+    font-size: 16px;
+    margin-top:10%;
+}
+.subscription .grid-container{
+    display: grid;
+    grid-template-columns: auto ;
+    margin-top: 10% ;
+    grid-row-gap: 10%;
+}
+.subscription .grid-item{
+    width: 300px;
+    height: 120px;
+    box-shadow: 4px 4px 4px 4px gainsboro;
+    margin:0 auto !important;
+
+}
+.subscription .grid-item h4{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+.subscription .grid-item p{
+font-size: 16px;
+text-align: center;
+}
+footer{
+    height: 210vh;
+  background-color: gainsboro;
+    margin-top:30%;
+ 
+}
+footer h1{
+    padding-top: 5%;
+    font-size: 25px;
+    margin-left: 5%;
+    font-weight: bolder;
+}
+footer p{
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+footer .grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    margin-top: 3%;
+}
+#intro{
+    margin-top: 5%;
+    font-size:15px;
+}
+footer a{
+    margin-top: 2%;
+    color: black;
+    margin-left: 5%;
+    text-decoration: black;
+}
+}
+
+@media only screen and (min-width:768px){
+
+
+    html,body{
+        overflow-x: hidden;
+    }
+    .container-fluid{
+    height: 160vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+.container-fluid .row{
+    margin: 10px;
+    margin-top: 10%
+}
+.navbar .navbar-brand{
+    font-size: 35px;
+    font-family: 'Alex Brush', cursive !important;
+    color:black;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+#side1{
+    height: 350px;
+}
+#side1 h4{
+    font-size:18px;
+    word-spacing: 3px;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
+#side1 h1{
+    font-weight: bolder;
+    font-family: 'Oxygen', sans-serif;
+    font-size:35px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+} 
+#side1 img{
+    height: 80vh;
+    margin-top: 10%;
+    margin-right: 10px;
+    width: 100%;
+}
+#side2 p{
+    font-size: 20px;
+    margin-top: 65%;
+    margin-bottom:10%;
+    width: 100%;
+}
+.well{
+    text-align: center;
+    word-spacing: 3px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 5%;
+    box-shadow: 2px 2px 2px gray;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.well:hover{
+    box-shadow: 8px 8px 8px 8px gray;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.well span{
+    color:blue;
+}
+
+#free{
+background-color: black !important;
+padding: 25px;
+color: white;
+text-decoration: none;
+margin-right: 20px;
+margin-left: 25%;
+font-size: 18px;
+
+}
+ #demo{
+    color:black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 25px;
+    font-size: 18px;
+}
+#myCarousel{
+    height: 10vh;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5% !important;
+    margin-left: 50px;
+}
+.carousel-inner{
+    height: 100px;
+}
+.carousel-inner .nav-item{
+   background-color: palevioletred;
+}
+.carousel-inner li{
+    list-style-type:none;
+    display: inline;
+    margin: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin-left:20px;
+}
+.item .fa{
+    font-size: 30px;
+}
+P{
+    text-align: center;
+    font-size: 18px;
+}
+.hero{
+    height: 100vh;
+    text-align: center;
+    margin-top: 20% !important;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero h2{
+    font-weight: bolder;
+    font-family: 'Oxygen', sans-serif;
+    font-size:30px;
+}
+.hero p{
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-family: 'Red Hat Text', sans-serif;
+}
+.hero .grid-container{
+    display: grid;
+    grid-template-columns:  auto auto ; 
+    height: auto;
+    margin-top: 10%;
+    grid-gap: 30px;
+}
+.hero .fa{
+    font-size:20px;
+}
+.hero .grid-item{
+height: 140px;
+width: 350px;
+box-shadow: 5px 5px 8px gray;  
+cursor: pointer;
+margin-left: 10px;
+}
+.hero .grid-item h4{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight:bolder;
+    font-size:22px;
+    cursor: pointer;
+}
+.hero .grid-container p{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 20px;
+   
+}
+.hero .grid-item:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+.well2{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    padding: 5px !important;
+    box-shadow: 2px 2px 2px gray !important; 
+    border-radius: 20px;
+}
+.well2 h5{
+    font-size:15px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.well2 .fa{
+    font-size: 20px;
+}
+.scale{
+    height: 120vh;
+    margin-top: 10%;
+}
+
+.scale h1, p{
+    text-align: center;
+}
+.scale .row{
+    
+    margin-top: 10%;
+    margin: 5px;
+}
+.scale .row img{
+    height: 350px;
+    width: 100%;
+    margin-top: 10%;
+}
+#side4{
+    margin-top: 10%;
+}
+#side4 .nav-pills{
+    background-color: #91c7d9;
+    width: 420px;
+    display: flex;
+    color: white;
+    font-size: 18px;
+margin-left:25%;
+
+}
+#side4 .nav-pills li{
+    border: 1px solid gainsboro;
+
+}
+#firstone{
+    background-color: white !important;
+    border: 2px solid black !important;
+    color:black !important;
+    font-weight: bolder;
+    border-radius: 5px;
+    border-bottom: 3px solid black;
+}
+#side4 p{
+    font-size: 20px;
+    margin-top: 15%;
+    text-align: left;
+}
+#pay { 
+   list-style-type: none;
+
+}
+#pay li{
+    margin: 10px;
+    margin-top: 2%;
+    font-size: 17px;
+    font-weight: bold;
+   color: blue;
+} 
+.well3{
+    margin-top: 10%;
+}
+.well3 h5{
+    font-size:18px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+.oppurtunities{
+ 
+    height:120vh;
+    margin-top:10%;
+} 
+#side5{
+    margin-right: 40px;
+}
+#side5 h1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#side5 p{
+    font-size: 16px;
+    text-align: left !important ;
+    margin-top: 5%;
+    font-family: 'Oxygen', sans-serif;
+}
+#side6, #side7{
+    margin-left: 20px;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto!important;
+}
+#side6 h4 , #side7 h4{
+    font-weight: bold;
+}
+.oppurtunities li{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.subscription{
+    height: 70vh;
+  
+}
+.subscription h1{
+    text-align:center;
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: 'Oxygen', sans-serif;
+}
+.subscription p{
+    text-align:center;
+    font-size: 18px;
+    margin-top:5%;
+    width:60%;
+    margin-left:20%;
+}
+.subscription .grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10% ;
+    margin-right: 20px !important;
+}
+.subscription .grid-item{
+    width: 350px;
+    height: 150px;
+    box-shadow: 4px 4px 4px 4px gainsboro;
+    margin: 0 auto;
+    margin-top: 5%;
+    grid-gap: 10px ;
+    margin:10px !important;
+ 
+}
+.subscription .grid-item h4{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+.subscription .grid-item p{
+font-size: 16px;
+}
+footer{
+    height: 200vh;
+  background-color: gainsboro;
+}
+
+footer h1{
+    font-size: 30px;
+    margin-left: 19%;
+    font-weight: bolder;
+    width:70%;
+    font-family: 'Oxygen', sans-serif;
+    margin-top:5%;
+}
+footer p{
+    text-align: center;
+    margin-top: 10%;
+}
+footer .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10%;
+    margin-left: 2%;
+    grid-gap:10px;
+}
+footer h3{
+    font-size:16px;
+    color: blue;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    margin-top: 3%;
+}
+#intro{
+    margin-top: 5%;
+    font-size:15px;
+}
+footer a{
+    margin-top: 2%;
+    color: black;
+    margin-left: 5%;
+    text-decoration: black;
+}
+
+}
